@@ -1,0 +1,34 @@
+{
+    "name": "webpack-2-seed",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "webpack-dev-server --env=dev --open",
+        "build:dev": "webpack --env=dev --progress --profile --colors",
+        "build": "webpack --env=prod --progress --profile --colors",
+        "prod": "serve dist",
+        "preprod": "npm run build"
+    },
+    "dependencies": {
+        "font-awesome": "^4.7.0",
+        "html-webpack-plugin": "^2.28.0",
+        "lodash": "^4.17.4",
+        "rx": "^4.1.0",
+        "rxjs": "^5.4.1",
+        "webpack-merge": "^4.1.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.1.0",
+        "babel-preset-env": "^1.5.2",
+        "css-loader": "^0.28.4",
+        "eslint-loader": "^1.8.0",
+        "file-loader": "^0.11.2",
+        "html-webpack-template": "^6.0.1",
+        "serve": "^5.2.3",
+        "style-loader": "^0.18.2",
+        "webpack": "^3.0.0",
+        "webpack-dev-server": "^2.5.0"
+    }
+}
